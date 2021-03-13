@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DotGothic16&family=Ranchers&display=swap');
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto 0 auto 0;
+    width: 100%;
+    height: 90vh;
+}
+
+h1, p {
+    color: #000000;
+}
+
+h1 {
+    padding: 20px;
+    line-height: normal;
+    font-size: 3em;
+    font-family: Ranchers, "Times New Roman", sans-serif;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    font-family: "Bebas Neue", "Times New Roman", sans-serif;
+    font-size: 1.5em;
+}
+
+.container {
+    margin: 70px auto 20px auto;
+    background-color: #4C4752;
+    width: 350px;
+    height: 60vh;
+    border: 7px outset #232126;
+    border-radius: 25px;
+    box-shadow: 2px 0px 10px 5px #423f3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.screen {
+    background-color: black;
+    width: 85%;
+    height: 6vh;
+    margin: 20px auto 10px auto;
+    color: white;
+    border: 3px inset #848181;
+    border-radius: 10px;
+    display: table;
+}
+
+.screen-content {
+    font-family: DotGothic16, "Times New Roman", monospace;
+    color: rgb(255, 247, 0);
+    width: 20%;
+    height: 20%;
+    padding-right: 5px;
+    font-size: 5vh;
+    text-align: right;
+    padding-right: 15px; 
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.buttons {
+    background-color: 4C4752;
+    width: 85%;
+    height: 45vh;
+    margin: auto;
+    border: 3px inset #232126;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+        "normal normal normal aside"
+        "normal normal normal aside"
+        "normal normal normal aside"
+        "normal normal normal long1"
+        "long2 long2 bottom long1";
+}
+
+.button {
+    background-color: #AA6939;
+    font-size: 3vh;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    border: 4px outset #7e7c82;
+    border-radius: 50%;
+    display: table;
+}
+
+.button-content {
+    color: #e4de98;
+    text-align:center;
+    font-weight: 600;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.button1 {
+    font-size: 1.5vh;
+}
+
+.button16 {
+    transform: scaleY(1.3);
+    border-radius: 10px;
+    grid-row: 4/6;
+    grid-area: long1;
+}
+
+.button17 {
+    transform: scaleX(1.3);
+    border-radius: 10px;
+    grid-column: 1/3;
+    grid-area: long2;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+.button16:active {
+    transform: scaleY(1.25);
+}
+
+.button17:active {
+    transform: scaleX(1.25);
+}
