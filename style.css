@@ -13,9 +13,11 @@ body {
 
 .background {
     background-color: rgba(255, 255, 255, 0.5);
-    margin: auto 0 auto 0;
-    width: 100%;
-    height: 90vh;
+    padding-bottom: 1px;
+    margin: 0 auto 0 auto;
+    max-width: 60vw;
+    min-width: 450px;
+
 }
 
 h1, p {
@@ -39,7 +41,7 @@ p {
 }
 
 .container {
-    margin: 70px auto 20px auto;
+    margin: 40px auto 40px auto;
     background-color: #4C4752;
     width: 350px;
     height: 60vh;
