@@ -13,10 +13,10 @@ body {
 
 .background {
     background-color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 1px;
+    padding-bottom: 0.5em;
     margin: 0 auto 0 auto;
     max-width: 60vw;
-    min-width: 450px;
+    min-width: 25em;
 
 }
 
@@ -25,7 +25,7 @@ h1, p {
 }
 
 h1 {
-    padding: 20px;
+    padding: 0.4em;
     line-height: normal;
     font-size: 3em;
     font-family: Ranchers, "Times New Roman", sans-serif;
@@ -41,13 +41,13 @@ p {
 }
 
 .container {
-    margin: 40px auto 40px auto;
+    margin: 2.5em auto 2em auto;
     background-color: #4C4752;
-    width: 350px;
-    height: 60vh;
+    width: 22em;
+    height: 33em;
     border: 7px outset #232126;
     border-radius: 25px;
-    box-shadow: 2px 0px 10px 5px #423f3f;
+    box-shadow: 0.2em 0px 10px 5px #423f3f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,9 +55,9 @@ p {
 
 .screen {
     background-color: black;
-    width: 85%;
-    height: 6vh;
-    margin: 20px auto 10px auto;
+    width: 19em;
+    height: 3em;
+    margin: 1.5em auto 0.5em auto;
     color: white;
     border: 3px inset #848181;
     border-radius: 10px;
@@ -69,18 +69,17 @@ p {
     color: rgb(255, 247, 0);
     width: 20%;
     height: 20%;
-    padding-right: 5px;
-    font-size: 5vh;
+    padding-right: 0.3em;
+    font-size: 2.5em;
     text-align: right;
-    padding-right: 15px; 
     vertical-align: middle;
     display: table-cell;
 }
 
 .buttons {
     background-color: 4C4752;
-    width: 85%;
-    height: 45vh;
+    width: 19em;
+    height: 25em;
     margin: auto;
     border: 3px inset #232126;
     border-radius: 10px;
@@ -99,7 +98,7 @@ p {
 
 .button {
     background-color: #AA6939;
-    font-size: 3vh;
+    font-size: 1.5em;
     width: 60%;
     height: 60%;
     margin: auto;
@@ -117,7 +116,7 @@ p {
 }
 
 .button1 {
-    font-size: 1.5vh;
+    font-size: 0.75em;
 }
 
 .button16 {
